@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<vpd:VirtualPatientData xmlns="http://ns.medbiq.org/virtualpatientdata/v1/" xmlns:websp="http://patientcases.org/medbiq/vpd-extensions/" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:vpd="http://ns.medbiq.org/virtualpatientdata/v1/">
+  <PatientDemographics id="a" />
+  <VPDText  />
+  <!-- End elements used from standard -->
+  <!-- (Currently) unused elements from Standard -->
+  <Medication  />
+  <PhysicalExam  />
+  <DiagnosticTest  />
+  <Diagnosis  />
+  <Intervention  />
+  <Organization  />
+  <!-- End unused elements from standard. -->
+  <XtensibleInfo >
+    <casusInfo>
+      <casusType>Crown</casusType>
+      <casusNumber>1</casusNumber>
+      <language>nl-NL</language>
+    </casusInfo>
+
+    <threeDInfo path="urn:moog.com:/lessons/46_01_CRW_05/lesson_46_01_CRW_05.xml" />
+
+    <casusGraphics>
+      <waitingRoom path="Media\Graphics\Start\WaitingRoom\wk.jpg" />
+    </casusGraphics>
+
+    <instructions>
+      <instructionFile path="" />
+      <instructionMovie path="" />
+      <instructorPhoto path="" />
+    </instructions>
+
+    <trays />
+
+    <settings>
+      <level>1</level>
+      <leeway>0.4</leeway>
+      <magnification>
+        <allowMagnify>true</allowMagnify>
+        <minMagnify>75</minMagnify>
+        <maxMagnify>125</maxMagnify>
+        <initZoom>100</initZoom>
+      </magnification>
+      <allowTranslate>true</allowTranslate>
+      <rotation>
+        <allowRotate>true</allowRotate>
+        <limitRotate>true</limitRotate>
+        <values>1.0 1.0 1.0</values>
+      </rotation>
+      <startPosition>
+        <translateScene>
+          <leftHand>-0.009 0 0.008</leftHand>
+          <rightHand>0.008 0 0.008</rightHand>
+        </translateScene>
+        <rotateScene>
+          <leftHand>0 1 0 0.50</leftHand>
+          <rightHand>0 1 0 -0.50</rightHand>
+        </rotateScene>
+      </startPosition>
+      <!-- <percentagePass> 60</percentagePass> -->
+
+    </settings>
+  </XtensibleInfo>
+</vpd:VirtualPatientData>

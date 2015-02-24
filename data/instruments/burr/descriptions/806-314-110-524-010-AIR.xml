@@ -1,0 +1,61 @@
+<DentalTool
+   name        = "FG110/010"
+   description = "FG110/010 - Cylinder - 1.0 mm - blue">
+   <ToolSelection>
+      <![CDATA[
+      <CustomDrill
+         type        = "AIRROTOR"
+         description = "FG110/010 - Cylinder - 1.0 mm - blue"
+         length      = "0.0118"
+         center      = "0.0 0.0015 0.0"
+         maxRadius   = "0.0005"
+         diamondCoverageBegin = "0"
+         diamondCoverageEnd   = "0.89189"
+         diamondFineness      = "normal"
+         radiusFunction = "
+            if ( x &lt; 0.01,
+               100* x,
+            if ( x &lt; 0.89189,
+               1,			
+               1.5 * x
+            ) )"
+         radiusFunctionDerivative = "1"
+         >
+         <ToolInfo
+            type         = "AIRROTOR"
+            shape        = "poly"
+            length       = "0.0118"
+            tipExtensionFromPivotPoint = "0.0044"
+            tipRadius    = "0"
+            tipSlope     = "1.92"
+            bbLength     = "0.0118"
+            bbRadius     = "0.0005"
+            shapeA0      = "0.0005"
+            shapeA1      = "0"
+            shapeA2      = "0"
+            shapeA3      = "0"
+            diamondBegin = "-0.0044"
+            diamondEnd   = "0.0074"
+            cutSpeedGainSideways="0.01" 
+            cutSpeedGainAxial="0.01"
+            useCutSpeedTable="true"
+            cutSpeedT0="0.9"
+            cutSpeedT1="0.8"
+            cutSpeedT2="0.8"
+            cutSpeedT3="0.8"
+            cutSpeedT4="0.5"
+            cutSpeedT5="0.5"
+            cutSpeedT6="0.5"
+            cutSpeedT7="0.075"
+            cutSpeedT8="0.075"
+            cutSpeedT9="0.075"
+            cutSpeedT10="0.075"
+            weight="0.7"
+            vibrationFreq="0.0"
+            vibrationAmp="0.0"
+            rpmDropByForce="-0.1"
+            rpmFilterCoef="0.30" />
+	  </CustomDrill>
+      ]]>
+   </ToolSelection>
+</DentalTool>

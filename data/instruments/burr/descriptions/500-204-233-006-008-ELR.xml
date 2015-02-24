@@ -1,0 +1,62 @@
+<DentalTool
+   name        = "RAH245/008 - Cone"
+   description = "RAH245/008 - Cylinder - 0,8 mm">
+   <ToolSelection>
+      <![CDATA[
+      <CustomDrill
+         type        = "ELECTRICAL"
+         description = "RAH245/008 - Cylinder - 0,8 mm"
+         length      = "0.01"
+         center      = "0.0 0.005 0.0"
+         maxRadius   = "0.0004"
+         diamondCoverageBegin = "0"
+         diamondCoverageEnd   = "0.271"
+         diamondFineness      = "normal"
+         radiusFunction = "
+            if ( x &lt; 0.001337,
+               0.5 * sqrt( 78.9627 * x * ( 2.0 - 78.9627 * x ) ),
+            if ( x &lt; 0.011169,
+               0.11803 + 78.9627* x, 
+			if ( x &lt; 0.271,
+			   1,
+			if ( x &lt; 0.721,
+			   (x * 2),
+			   1.5
+            ))))"
+         radiusFunctionDerivative = "1"
+         drillTextureIdle="urn:moog.com:/data/textures/RAH245-008_idle.png"
+         drillTextureDrilling="urn:moog.com:/data/textures/RAH245-008_drilling.png" >
+         <ToolInfo
+            type         = "AIRROTOR"
+            shape        = "poly"
+            length       = "0.00271"
+            tipRadius    = "0.0002"
+            tipSlope     = "2"
+            bbLength     = "0.01"
+            bbRadius     = "0.0004"
+            shapeA0      = "0.0004"
+            shapeA1      = "0"
+            shapeA2      = "0"
+            shapeA3      = "0"
+            diamondBegin = "0"
+            diamondEnd   = "0.00271"
+            cutSpeedGainSideways = "0.4"
+            cutSpeedGainAxial    = "0.2"
+            useCutSpeedCoef  = "false"
+			useCutSpeedTable = "true"
+            cutSpeedT0    = "1"
+            cutSpeedT1    = "0.9"
+            cutSpeedT2    = "0.01"
+            cutSpeedT3    = "0.01"
+            cutSpeedT4    = "0.01"
+            cutSpeedT5    = "0.008"
+            cutSpeedT6    = "0.008"
+            cutSpeedT7    = "0.004"
+            cutSpeedT8    = "0.004"
+            cutSpeedT9    = "0.004"
+            cutSpeedT10   = "0"
+         />
+	  </CustomDrill>
+      ]]>
+   </ToolSelection>
+</DentalTool>

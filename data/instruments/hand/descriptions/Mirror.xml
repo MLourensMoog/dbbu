@@ -1,0 +1,7 @@
+<DentalTool name="Hand mirror" description="Hand mirror">
+   <ToolSelection>
+      <![CDATA[
+      <CustomTool description="Mirror" stylus="urn:moog.com:/x3d/polygon_data/tools/mirror.wrl" collisionGeometry="urn:moog.com:/x3d/polygon_data/tools/mirror_disk.x3d"><ToolInfo type="airrotor" shape="sphere" radius="0.001" /></CustomTool>
+      ]]>
+   </ToolSelection>
+</DentalTool>

@@ -1,0 +1,7 @@
+<DentalTool name="Hand preparation gauge" description="Hand preparation gauge (1.0mm)">
+   <ToolSelection>
+      <![CDATA[
+      <PreparationGauge description='Preparation gauge 1.0mm' radius='0.0005' weight="0.7" />
+      ]]>
+   </ToolSelection>
+</DentalTool>

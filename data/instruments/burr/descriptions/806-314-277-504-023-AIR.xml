@@ -1,0 +1,43 @@
+<DentalTool name="FG227/023" description="FG227/023 - Kiwi drill (2.3mm) yellow">
+   <ToolSelection>
+      <![CDATA[
+      <CustomDrill type="AIRROTOR" 
+      description="Kiwi drill" 
+      length="0.0043" 
+      center="0 0.00215 0" 
+      maxRadius="0.00115"
+      diamondCoverageBegin="0.0" 
+      diamondCoverageEnd="1.0" 
+      diamondFineness="xfine"       
+      radiusFunction="if ( x &lt; 0.0661, ( 0.5249 * sqrt( x/0.1404 * ( 2.0 - x/0.1404 ) ) ), ( 0.2912 + 2.4725*x - 2.1137*x*x - 0.0639*x*x*x ))" 
+      radiusFunctionDerivative="1" >
+         <ToolInfo type="AIRROTOR" 
+         shape="poly" 
+         length="0.0045 " 
+         tipRadius="0.00060359" 
+         bbLength="0.0075" 
+         bbRadius="0.00115" 
+         tipLength="0.00060359" 
+         tipSlope="0.6238" 
+         shapeA0="3.3487e-04" 
+         shapeA1="0.6613" 
+         shapeA2="-131.4611" 
+         shapeA3="-923.6357" 
+         diamondBegin="0.0"
+         diamondEnd="0.0043"
+         cutSpeedGainSideways="0.01" 
+         cutSpeedGainAxial="0.01" 
+         useCutSpeedCoef="true"
+         cutSpeedA0="1"
+         cutSpeedA1="-1.186562500000e+00"
+         cutSpeedA2="-8.446875000000e-01"
+         cutSpeedA3="1.031250000000e+00"
+         weight="0.7"
+         fibrationFreq="0.0"
+         fibrationAmp="0.0"
+         rpmDropByForce="-0.1"
+         rpmFilterCoef="0.30" />
+      </CustomDrill>
+      ]]>
+   </ToolSelection>
+</DentalTool>

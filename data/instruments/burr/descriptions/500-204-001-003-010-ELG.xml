@@ -1,0 +1,50 @@
+<DentalTool name="RAH1S/010" description="RAH1S/010 - Sphere drill (1.0mm)">
+   <ToolSelection>
+      <![CDATA[
+      <CustomDrill type="ELECTRICAL" 
+      description="Sphere drill" 
+      length="0.0010" 
+      center="0 0.0005 0" 
+      maxRadius="0.0005" 
+      diamondCoverageBegin="0.0" 
+      diamondCoverageEnd="1.0"
+      diamondFineness="normal" 
+      radiusFunction="sqrt( x * ( 2 - x / 0.5 ) / 0.5 )"
+      radiusFunctionDerivative="0" >
+         <ToolInfo type="ELECTRICAL" 
+         shape="poly" 
+         length="0.000976" 
+         tipRadius="0.0005" 
+         bbLength="0.009" 
+         bbRadius="0.0005" 
+         tipLength="0.0005" 
+         tipSlope="-3.179" 
+         shapeA0="0" 
+         shapeA1="0" 
+         shapeA2="0" 
+         shapeA3="0" 
+         diamondBegin="0.0"
+         diamondEnd="0.0010"
+         cutSpeedGainSideways="0.03" 
+         cutSpeedGainAxial="0.03" 
+         useCutSpeedTable="true"
+         cutSpeedT0="0.8"
+         cutSpeedT1="0.8"
+         cutSpeedT2="0.8"
+         cutSpeedT3="0.005"
+         cutSpeedT4="0.004"
+         cutSpeedT5="0.003"
+         cutSpeedT6="0.002"
+         cutSpeedT7="0.001"
+         cutSpeedT8="0.0"
+         cutSpeedT9="0.0"
+         cutSpeedT10="0.0"
+         weight="0.7"
+         fibrationFreq="75.0"
+         fibrationAmp="0.6"
+         rpmDropByForce="-0.01"
+         rpmFilterCoef="0.08" />
+      </CustomDrill>
+      ]]>
+   </ToolSelection>
+</DentalTool>

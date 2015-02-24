@@ -1,0 +1,8 @@
+<DentalTool name="Hand probe" description="Hand probe">
+   <ToolSelection>
+      <![CDATA[
+      <CustomTool description="Probe" stylus="urn:moog.com:/x3d/polygon_data/tools/probe.wrl" collisionGeometry="urn:moog.com:/x3d/polygon_data/tools/probe_handle_collision_geometry.x3d"><ToolInfo type="probe" radiusRoot="0.0005" radiusTip="0.0004" weight="0.7"/></CustomTool>
+      ]]>
+   </ToolSelection>
+</DentalTool>
+

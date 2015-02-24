@@ -1,0 +1,50 @@
+<DentalTool name="FG172/014" description="FG172/014 - Tapered drill (1.4mm) blue">
+   <ToolSelection>
+      <![CDATA[
+      <CustomDrill type="AIRROTOR" 
+      description="Chamfer drill" 
+      length="0.0074" 
+      center="0 0.0037 0" 
+      maxRadius="0.0007" 
+      diamondCoverageBegin="0.0" 
+      diamondCoverageEnd="0.9" 
+      diamondFineness="normal"
+      radiusFunction="if( x &lt; 0.9, ( 1 / 1.4 - 0.05 ) / 0.95 + (1 - 1 / 1.4 ) * x / 0.95, 1.0714 )"
+      radiusFunctionDerivative="(1 - 1 /1.4 ) / 0.95" >
+         <ToolInfo type="AIRROTOR" 
+         shape="poly" 
+         length="0.0074" 
+         tipRadius="0.0005" 
+         bbLength="0.0074" 
+         bbRadius="0.0007" 
+         tipLength="0" 
+         tipSlope="1e80" 
+         shapeA0="0.0005" 
+         shapeA1="0.027" 
+         shapeA2="0" 
+         shapeA3="0"
+         diamondBegin="0.0"
+         diamondEnd="0.00666"
+         cutSpeedGainSideways="0.015" 
+         cutSpeedGainAxial="0.01" 
+         useCutSpeedTable="true"
+         cutSpeedT0="0.9"
+         cutSpeedT1="0.8"
+         cutSpeedT2="0.8"
+         cutSpeedT3="0.8"
+         cutSpeedT4="0.5"
+         cutSpeedT5="0.5"
+         cutSpeedT6="0.5"
+         cutSpeedT7="0.075"
+         cutSpeedT8="0.075"
+         cutSpeedT9="0.075"
+         cutSpeedT10="0.075"
+         weight="0.7"
+         fibrationFreq="0.0"
+         fibrationAmp="0.0"
+         rpmDropByForce="-0.1"
+         rpmFilterCoef="0.30" />
+      </CustomDrill>
+      ]]>
+   </ToolSelection>
+</DentalTool>

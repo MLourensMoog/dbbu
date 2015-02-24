@@ -1,0 +1,24 @@
+<DentalTool name="Hand excavator" description="Hand excavator 220/221 (1.5mm right)">
+   <ToolSelection>
+      <![CDATA[
+      <Excavator description="Excavator right" spoonRadius="0.00075" spoonThickness="0.00035" >
+         <ToolInfo type="excavator" 
+         spoonRadius="0.00075" 
+         spoonThickness="0.00035"
+         spoonType="right"
+         cutSpeedT0="0.4"
+         cutSpeedT1="0.4"
+         cutSpeedT2="0.4"
+         cutSpeedT3="0.0"
+         cutSpeedT4="0.0"
+         cutSpeedT5="0.0"
+         cutSpeedT6="0.0"
+         cutSpeedT7="0.0"
+         cutSpeedT8="0.0"
+         cutSpeedT9="0.0"
+         cutSpeedT10="0.0"
+         weight="0.7" />
+      </Excavator>
+      ]]>
+   </ToolSelection>
+</DentalTool>

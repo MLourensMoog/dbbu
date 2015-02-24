@@ -1,0 +1,50 @@
+<DentalTool name="FG001/012" description="FG001/012 - Sphere drill (1.2mm) blue">
+   <ToolSelection>
+      <![CDATA[
+      <CustomDrill type="AIRROTOR" 
+      description="Sphere drill" 
+      length="0.0012" 
+      center="0 0.0006 0" 
+      maxRadius="0.0006" 
+      diamondCoverageBegin="0.0" 
+      diamondCoverageEnd="1.0"
+      diamondFineness="normal" 
+      radiusFunction="sqrt( x * ( 2 - x / 0.5 ) / 0.5 )"
+      radiusFunctionDerivative="0" >
+         <ToolInfo type="AIRROTOR" 
+         shape="poly" 
+         length="0.00117" 
+         tipRadius="0.0006" 
+         bbLength="0.0074" 
+         bbRadius="0.0006" 
+         tipLength="0.0006" 
+         tipSlope="-2.78" 
+         shapeA0="0" 
+         shapeA1="0" 
+         shapeA2="0" 
+         shapeA3="0" 
+         diamondBegin="0.0"
+         diamondEnd="0.0012"
+         cutSpeedGainSideways="0.02" 
+         cutSpeedGainAxial="0.02" 
+         useCutSpeedTable="true"
+         cutSpeedT0="0.9"
+         cutSpeedT1="0.8"
+         cutSpeedT2="0.8"
+         cutSpeedT3="0.7"
+         cutSpeedT4="0.4"
+         cutSpeedT5="0.4"
+         cutSpeedT6="0.4"
+         cutSpeedT7="0.075"
+         cutSpeedT8="0.075"
+         cutSpeedT9="0.075"
+         cutSpeedT10="0.075"	
+         weight="0.7"
+         fibrationFreq="0.0"
+         fibrationAmp="0.0"
+         rpmDropByForce="-0.1"
+         rpmFilterCoef="0.30" />
+      </CustomDrill>
+      ]]>
+   </ToolSelection>
+</DentalTool>

@@ -1,0 +1,58 @@
+<DentalTool
+   name        = "FG233/012"
+   description = "FG233/012 - 7 Pear - 1.2 mm">
+   <ToolSelection>
+      <![CDATA[
+      <CustomDrill
+         type        = "AIRROTOR"
+         description = "FG233/012 - 7 Pear - 1.2 mm"
+         length      = "0.0028"
+         center      = "0.0 0.0014 0.0"
+         maxRadius   = "0.0006"
+         diamondCoverageBegin = "0"
+         diamondCoverageEnd   = "1"
+         diamondFineness      = "normal"
+         radiusFunction = "
+            if ( x &lt; 0.20827,
+               0.99321 * sqrt( 4.6986 * x * ( 2.0 - 4.6986 * x ) ),
+               1.0138 + x * ( -0.053088 + x * ( -0.21244 + x * -0.062352 ) )
+            )"
+         radiusFunctionDerivative = "1"
+         >
+         <ToolInfo
+            type         = "AIRROTOR"
+            shape        = "poly"
+            length       = "0.0028"
+            tipRadius    = "0.00059593"
+            tipSlope     = "-0.021437"
+            bbLength     = "0.0074"
+            bbRadius     = "0.0006"
+            shapeA0      = "0.00060829"
+            shapeA1      = "-0.011376"
+            shapeA2      = "-16.2583"
+            shapeA3      = "-1704.2251"
+            diamondBegin = "0"
+            diamondEnd   = "0.0028"
+            cutSpeedGainSideways = "0.0075"
+            cutSpeedGainAxial    = "0.005"
+            useCutSpeedTable="true"
+            cutSpeedT0="0.9"
+            cutSpeedT1="0.8"
+            cutSpeedT2="0.8"
+            cutSpeedT3="0.8"
+            cutSpeedT4="0.25"
+            cutSpeedT5="0.25"
+            cutSpeedT6="0.25"
+            cutSpeedT7="0.075"
+            cutSpeedT8="0.075"
+            cutSpeedT9="0.075"
+            cutSpeedT10="0.075"
+            weight="0.7"
+            fibrationFreq="0.0"
+            fibrationAmp="0.0"
+            rpmDropByForce="-0.1"
+            rpmFilterCoef="0.30" />
+	  </CustomDrill>
+      ]]>
+   </ToolSelection>
+</DentalTool>

@@ -1,0 +1,66 @@
+<DentalTool
+   name        = "RAH330/008"
+   description = "RAH330/008 - Pear - 0.8 mm">
+   <ToolSelection>
+      <![CDATA[
+      <CustomDrill
+         type        = "ELECTRICAL"
+         description = "RAH330/008 - Pear - 0.8 mm"
+         length      = "0.01"
+         center      = "0.0 0.005 0.0"
+         maxRadius   = "0.0004"
+         diamondCoverageBegin = "0"
+         diamondCoverageEnd   = "0.176"
+         diamondFineness      = "normal"
+         radiusFunction = "
+            if ( x &lt; 0.03369,
+               0.9646 * sqrt( 25.9172 * x * ( 2.0 - 25.9172 * x ) ),
+			if ( x &lt; 0.1716,
+				0.84912 + x * ( 5.182167 + x * ( -65.619 + x * 198.2825 ) ),
+			if ( x &lt; 0.55,
+				(x * 2.5),
+				1.5
+			)))"
+			
+         radiusFunctionDerivative = "1"
+         drillTextureIdle="urn:moog.com:/data/textures/RAH330-008_idle.png"
+         drillTextureDrilling="urn:moog.com:/data/textures/RAH330-008_drilling.png" >
+         <ToolInfo
+            type         = "AIRROTOR"
+            shape        = "poly"
+            length       = "0.001716"
+            tipRadius    = "0.00038584"
+            tipSlope     = "0.12786"
+            bbLength     = "0.009"
+            bbRadius     = "0.0004"
+            shapeA0      = "0.00033965"
+            shapeA1      = "0.20729"
+            shapeA2      = "-262.4793"
+            shapeA3      = "79312.58"
+            diamondBegin = "0"
+            diamondEnd   = "0.001716"
+            cutSpeedGainSideways = "0.4"
+            cutSpeedGainAxial    = "0.2"
+            useCutSpeedCoef  = "false"
+			   useCutSpeedTable = "true"
+            cutSpeedT0    = "1"
+            cutSpeedT1    = "0.9"
+            cutSpeedT2    = "0.01"
+            cutSpeedT3    = "0.01"
+            cutSpeedT4    = "0.01"
+            cutSpeedT5    = "0.008"
+            cutSpeedT6    = "0.008"
+            cutSpeedT7    = "0.004"
+            cutSpeedT8    = "0.004"
+            cutSpeedT9    = "0.004"
+            cutSpeedT10   = "0"
+            weight="0.7"
+            vibrationFreq="250.0"
+            vibrationAmp="0.6"
+            rpmDropByForce="-0.1"
+            rpmFilterCoef="0.30"
+         />
+	  </CustomDrill>
+      ]]>
+   </ToolSelection>
+</DentalTool>

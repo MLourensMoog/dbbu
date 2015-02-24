@@ -1,0 +1,50 @@
+<DentalTool name="FG249/014" description="FG249/014 - Bevel drill (1.4mm) yellow">
+   <ToolSelection>
+      <![CDATA[
+      <CustomDrill type="AIRROTOR" 
+      description="Bevel drill" 
+      length="0.0074" 
+      center="0 0.0037 0" 
+      maxRadius="0.00065"
+      diamondCoverageBegin="0.0" 
+      diamondCoverageEnd="0.9" 
+      diamondFineness="xfine"
+      radiusFunction="if( x &lt; 0.0172, ( 0.2734 * sqrt( x/0.0240 * ( 2.0 - x/0.0240 ) ) ), if( x &lt; 0.9, ( 0.2040 + 3.4645*x - 4.8564*x*x + 2.1878*x*x*x ), 1.071))"
+      radiusFunctionDerivative="0" >
+         <ToolInfo type="AIRROTOR" 
+         shape="poly" 
+         length="0.0074" 
+         tipRadius="1.7774e-004" 
+         bbLength="0.0074" 
+         bbRadius="6.5000e-004" 
+         tipLength="1.7774e-004" 
+         tipSlope="0.2970"
+         shapeA0="1.3262e-004" 
+         shapeA1="0.3043" 
+         shapeA2="-57.6448" 
+         shapeA3="3.5093e+003"
+         diamondBegin="0.0"
+         diamondEnd="0.00666"
+         cutSpeedGainSideways="0.003" 
+         cutSpeedGainAxial="0.003"
+         useCutSpeedTable="true"
+         cutSpeedT0="0.9"
+         cutSpeedT1="0.8"
+         cutSpeedT2="0.8"
+         cutSpeedT3="0.8"
+         cutSpeedT4="0.5"
+         cutSpeedT5="0.5"
+         cutSpeedT6="0.5"
+         cutSpeedT7="0.075"
+         cutSpeedT8="0.075"
+         cutSpeedT9="0.075"
+         cutSpeedT10="0.075"
+         weight="0.7"
+         fibrationFreq="0.0"
+         fibrationAmp="0.0"
+         rpmDropByForce="-0.1"
+         rpmFilterCoef="0.30" />
+      </CustomDrill>
+      ]]>
+   </ToolSelection>
+</DentalTool>

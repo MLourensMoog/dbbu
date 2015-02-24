@@ -1,0 +1,58 @@
+<DentalTool
+   name        = "FG199/014"
+   description = "FG199/014 - 2 Flat end taper - 1,4 mm">
+   <ToolSelection>
+      <![CDATA[
+      <CustomDrill
+         type        = "AIRROTOR"
+         description = "FG199/014 - 2 Flat end taper - 1,4 mm"
+         length      = "0.01"
+         center      = "0.0 0.005 0.0"
+         maxRadius   = "0.0007"
+         diamondCoverageBegin = "0"
+         diamondCoverageEnd   = "1"
+         diamondFineness      = "normal"
+         radiusFunction = "if ( x &lt; 0.047407,
+            0.69289 * sqrt( 20.6176 * x * ( 2.0 - 20.6176 * x ) ),
+            0.67742 + x * ( 0.32258 + x * ( 0 + x * 0 ) ) )"
+         radiusFunctionDerivative = "1"
+         drillTextureIdle="urn:moog.com:/data/textures/diamond_gold_normal_idle.png"
+         drillTextureDrilling="urn:moog.com:/data/textures/diamond_gold_normal_drilling.png" >
+         <ToolInfo
+            type         = "AIRROTOR"
+            shape        = "poly"
+            length       = "0.01"
+            tipRadius    = "0.00048502"
+            tipLength    = "0.00048502"
+            tipSlope     = "0.022581"
+            bbLength     = "0.01"
+            bbRadius     = "0.0007"
+            shapeA0      = "0.00047419"
+            shapeA1      = "0.022581"
+            shapeA2      = "0"
+            shapeA3      = "0"
+            diamondBegin = "0"
+            diamondEnd   = "0.01"
+            cutSpeedGainSideways = "0.01"
+            cutSpeedGainAxial    = "0.0025"
+            useCutSpeedTable="true"
+            cutSpeedT0="0.9"
+            cutSpeedT1="0.8"
+            cutSpeedT2="0.8"
+            cutSpeedT3="0.8"
+            cutSpeedT4="0.3"
+            cutSpeedT5="0.3"
+            cutSpeedT6="0.3"
+            cutSpeedT7="0.075"
+            cutSpeedT8="0.075"
+            cutSpeedT9="0.075"
+            cutSpeedT10="0.075"
+            weight="0.7"
+            fibrationFreq="0.0"
+            fibrationAmp="0.0"
+            rpmDropByForce="-0.1"
+            rpmFilterCoef="0.30" />
+	     </CustomDrill>
+      ]]>
+   </ToolSelection>
+</DentalTool>

@@ -1,0 +1,50 @@
+<DentalTool name="FG856/018" description="FG856/018 - Chamfer drill (1.8mm) red">
+   <ToolSelection>
+      <![CDATA[
+      <CustomDrill type="AIRROTOR" 
+      description="Chamfer drill" 
+      length="0.0074" 
+      center="0 0.0037 0" 
+      maxRadius="0.0009" 
+      diamondCoverageBegin="0.0" 
+      diamondCoverageEnd="0.9" 
+      diamondFineness="fine"
+      radiusFunction="if( x &lt; 0.08682, 0.7395 * sqrt( x * ( 2 - x / 0.08994 ) / 0.08994 ), if( x &lt; 0.9, 0.7143 + 0.2857 * x, 0.8333 ))"
+      radiusFunctionDerivative="1" >
+         <ToolInfo type="AIRROTOR" 
+         shape="poly" 
+         length="0.0074" 
+         tipRadius="0.0006656"
+         bbLength="0.0074" 
+         bbRadius="0.0009" 
+         tipLength="0.0006656" 
+         tipSlope="0.03475" 
+         shapeA0="6.4286e-4" 
+         shapeA1="0.03475" 
+         shapeA2="0" 
+         shapeA3="0"
+         diamondBegin="0.0"
+         diamondEnd="0.00666"
+         cutSpeedGainSideways="0.005" 
+         cutSpeedGainAxial="0.01" 
+         useCutSpeedTable="true"
+         cutSpeedT0="0.9"
+         cutSpeedT1="0.8"
+         cutSpeedT2="0.8"
+         cutSpeedT3="0.8"
+         cutSpeedT4="0.5"
+         cutSpeedT5="0.5"
+         cutSpeedT6="0.5"
+         cutSpeedT7="0.075"
+         cutSpeedT8="0.075"
+         cutSpeedT9="0.075"
+         cutSpeedT10="0.075"
+         weight="0.7"
+         fibrationFreq="0.0"
+         fibrationAmp="0.0"
+         rpmDropByForce="-0.1"
+         rpmFilterCoef="0.30" />
+      </CustomDrill>
+      ]]>
+   </ToolSelection>
+</DentalTool>

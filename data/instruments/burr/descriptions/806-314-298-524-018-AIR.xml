@@ -1,0 +1,58 @@
+<DentalTool
+   name        = "FG298/018"
+   description = "FG298/018 - 1 Pointed Taper - 1,8 mm">
+   <ToolSelection>
+      <![CDATA[
+      <CustomDrill
+         type        = "AIRROTOR"
+         description = "FG298/018 - 1 Pointed Taper - 1,8 mm"
+         length      = "0.008"
+         center      = "0.0 0.004 0.0"
+         maxRadius   = "0.0009"
+         diamondCoverageBegin = "0"
+         diamondCoverageEnd   = "1"
+         diamondFineness      = "normal"
+         radiusFunction = "if ( x &lt; 0.047829,
+            0.58002 * sqrt( 15.3253 * x * ( 2.0 - 15.3253 * x ) ),
+            0.44116 + x * ( 2.6707 + x * ( -4.46 + x * 2.3724 ) ) )"
+         radiusFunctionDerivative = "1"
+         drillTextureIdle="urn:moog.com:/data/textures/diamond_gold_normal_idle.png"
+         drillTextureDrilling="urn:moog.com:/data/textures/diamond_gold_normal_drilling.png" >
+         <ToolInfo
+            type         = "AIRROTOR"
+            shape        = "poly"
+            length       = "0.008"
+            tipRadius    = "0.00052201"
+            tipLength    = "0.00052201"
+            tipSlope     = "0.27707"
+            bbLength     = "0.008"
+            bbRadius     = "0.0009"
+            shapeA0      = "0.00039705"
+            shapeA1      = "0.30046"
+            shapeA2      = "-62.7182"
+            shapeA3      = "4170.3052"
+            diamondBegin = "0"
+            diamondEnd   = "0.008"
+            cutSpeedGainSideways = "0.01"
+            cutSpeedGainAxial    = "0.0025"
+            useCutSpeedTable="true"
+            cutSpeedT0="0.9"
+            cutSpeedT1="0.8"
+            cutSpeedT2="0.8"
+            cutSpeedT3="0.8"
+            cutSpeedT4="0.3"
+            cutSpeedT5="0.3"
+            cutSpeedT6="0.3"
+            cutSpeedT7="0.075"
+            cutSpeedT8="0.075"
+            cutSpeedT9="0.075"
+            cutSpeedT10="0.075"
+            weight="0.7"
+            fibrationFreq="0.0"
+            fibrationAmp="0.0"
+            rpmDropByForce="-0.1"
+            rpmFilterCoef="0.30" />
+	  </CustomDrill>
+      ]]>
+   </ToolSelection>
+</DentalTool>
